@@ -30,14 +30,14 @@
   position: relative;
   width: 100%; /* Full-width */
   height: 30%;
-  top: 25px;
-    
+  top: 25px;   
 }
 
 #myInput {
   position: relative;
   width: 100%; /* Full-width */
   height: 30%;
+  color: rgb(255, 255, 255);
   background-color: rgb(65, 65, 65);
   font-size: 16px; /* Increase font-size */
   border: 1px solid rgb(173, 173, 173); /* Add a grey border */
@@ -46,8 +46,8 @@
   #myUL {
     /* Remove default list styling */
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px; /* Add some padding */
+    margin: 0px;
   }
   
   #myUL li a {
