@@ -1,27 +1,50 @@
 .title
 {
-    position: absolute;
-    left: 460px;
+    position: left;
+    top: 0;
 }
 
-.U-lang
+@media screen and (min-width: 375px) 
 {
-    position: absolute;
-    left: 360px;
-    top: 84px;
+    .U-lang
+    {
+        position: relative;
+        left: 375/4*2px;
+        top: 20px;
+    }
 }
 
-.L-lang
+@media screen and (max-width: 600px) {
+    .U-lang
+    {
+        position: relative;
+        left: 600/4*2px;
+        top: 50px;
+    }
+}
+
+@media screen and (min-width: 375px) 
 {
-    position: absolute;
-    left: 720px;
-    top: 84px;
+    .L-lang
+    {
+        position: relative;
+        left: 375/4*2px;
+        top: 20*2px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .L-lang
+    {
+        position: relative;
+        left: 600/4*3px;
+        top: 50px;
+    }
 }
 
 .search-bar
 {
-    position: absolute;
-    left: 460px;
+    position: relative;
     top: 150px;
 }
 
