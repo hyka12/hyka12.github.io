@@ -4,53 +4,28 @@
     top: 0;
 }
 
-@media screen and (min-width: 375px) 
+.U-lang
 {
-    .U-lang
-    {
-        position: relative;
-        left: 375/4*2px;
-        top: 20px;
-    }
+    position: relative;
+    top: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    .U-lang
-    {
-        position: relative;
-        left: 600/4*2px;
-        top: 50px;
-    }
-}
-
-@media screen and (min-width: 375px) 
+.L-lang
 {
-    .L-lang
-    {
-        position: relative;
-        left: 375/4*2px;
-        top: 20*2px;
-    }
+    position: relative;
+    top: 45px;
 }
 
-@media screen and (min-width: 600px) {
-    .L-lang
-    {
-        position: relative;
-        left: 600/4*3px;
-        top: 50px;
-    }
-}
 
 .search-bar
 {
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 
 
 .search-bar input
 {
     height: 12px;
-    width: 400px;
+    width: 200px;
 }
