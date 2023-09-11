@@ -1,6 +1,8 @@
 .title
 {
     position: left;
+    width: 400px; 
+    height: 65px;
     top: 0;
 }
 
