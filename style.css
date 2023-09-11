@@ -1,25 +1,27 @@
 .U-lang
 {
     position: absolute;
-    padding-left: 10px; 
-    padding-top: 0px;
+    left: 100px;
+    top: 75px;
 }
 
 .L-lang
 {
     position: absolute;
-    padding-left: 200px; 
-    padding-top: 0px;
+    left: 400px;
+    top: 75px;
 }
 
 .search-bar
 {
     position: absolute;
-    padding-left: 420px; 
-    padding-top: 00px;
+    left: 700px;
+    top: 75px;
 }
 
-.search-bar input {
+
+.search-bar input
+{
     height: 12px;
-    width: 100px;
+    width: 400px;
 }
