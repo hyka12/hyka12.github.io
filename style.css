@@ -1,22 +1,28 @@
+.title
+{
+    position: absolute;
+    left: 460px;
+}
+
 .U-lang
 {
     position: absolute;
-    left: 100px;
+    left: 360px;
     top: 75px;
 }
 
 .L-lang
 {
     position: absolute;
-    left: 400px;
+    left: 720px;
     top: 75px;
 }
 
 .search-bar
 {
     position: absolute;
-    left: 700px;
-    top: 75px;
+    left: 460px;
+    top: 150px;
 }
 
 
