@@ -1,48 +1,46 @@
 .title
 {
-    color: rgb(255, 255, 255);
-    position: relative;
-    width: 30%;
-    height: 10%;
-    
-    
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 30%;
+  height: 10%;
 }
 
 .U-lang
 {
-    color: rgb(255, 255, 255);
-    position: relative;
-    width: 30%;
-    height: 10%;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 30%;
+  height: 10%;
     
 }
 
 
 .L-lang
 {
-    color: rgb(255, 255, 255);
-    position: relative;
-    width: 30%;
-    height: 10%;
-    top: 10px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  width: 30%;
+  height: 10%;
+  top: 10px;
 }
 
 .search-sec
 {
-    position: relative;
-    width: 100%; /* Full-width */
-    height: 30%;
-    top: 25px;
+  position: relative;
+  width: 100%; /* Full-width */
+  height: 30%;
+  top: 25px;
     
 }
 
 #myInput {
-    position: relative;
-    width: 100%; /* Full-width */
-    height: 30%;
-    background-color: rgb(65, 65, 65);
-    font-size: 16px; /* Increase font-size */
-    border: 1px solid rgb(173, 173, 173); /* Add a grey border */
+  position: relative;
+  width: 100%; /* Full-width */
+  height: 30%;
+  background-color: rgb(65, 65, 65);
+  font-size: 16px; /* Increase font-size */
+  border: 1px solid rgb(173, 173, 173); /* Add a grey border */
   }
   
   #myUL {
@@ -53,17 +51,17 @@
   }
   
   #myUL li a {
-    width: 100%; 
-    border: 1px solid rgb(173, 173, 173); /* Add a border to all links */
-    margin-top: -1px; /* Prevent double borders */
-    background-color: rgb(65, 65, 65); /* Grey background color */
-    padding: 2px; /* Add some padding */
-    text-decoration: none; /* Remove default text underline */
-    font-size: 18px; /* Increase the font-size */
-    color: rgb(255, 255, 255); /* Add a black text color */
-    display: block; /* Make it into a block element to fill the whole list */
+  width: 100%; 
+  border: 1px solid rgb(173, 173, 173); /* Add a border to all links */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: rgb(65, 65, 65); /* Grey background color */
+  padding: 2px; /* Add some padding */
+  text-decoration: none; /* Remove default text underline */
+  font-size: 18px; /* Increase the font-size */
+  color: rgb(255, 255, 255); 
+  display: block; /* Make it into a block element to fill the whole list */
   }
   
   #myUL li a:hover:not(.header) {
-    background-color: rgb(48, 48, 48); /* Add a hover effect to all links, except for headers */
+  background-color: rgb(48, 48, 48); /* Add a hover effect to all links, except for headers */
   }
