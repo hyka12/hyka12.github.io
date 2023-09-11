@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="app.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body style="background-color:rgb(58, 54, 54);">
     <center>
     <title>Multi-Language-Dictionary</title>
     <div class="title">
@@ -28,10 +29,23 @@
             <option value="french">french</option>
         </select>
     </div>
+    
+    <div class="search-sec">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
-    <div class="search-bar">
-        <input type="text" placeholder="search word in your language">
+    <ul id="myUL">
+    <li><a href="#">Adele</a></li>
+    <li><a href="#">Agnes</a></li>
+    
+    <li><a href="#">Billy</a></li>
+    <li><a href="#">Bob</a></li>
+    
+    <li><a href="#">Calvin</a></li>
+    <li><a href="#">Christina</a></li>
+    <li><a href="#">Cindy</a></li>
+    </ul> 
     </div>
+
     </center>
 
 </body>
