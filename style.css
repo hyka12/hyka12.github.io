@@ -46,6 +46,7 @@
   #myUL {
     /* Remove default list styling */
     list-style-type: none;
+    width: 100%;
     padding: 0px; /* Add some padding */
     margin: 0px;
   }
