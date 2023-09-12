@@ -34,17 +34,55 @@
         <input type="text" id="myInput" onkeyup="search()" placeholder="search a word in your language">
 
     <ul id="myUL">
-    <li><a href="#">Adele</a></li>
-    <li><a href="#">Agnes</a></li>
-    
-    <li><a href="#">Billy</a></li>
-    <li><a href="#">Bob</a></li>
-    
-    <li><a href="#">Calvin</a></li>
-    <li><a href="#">Christina</a></li>
-    <li><a href="#">Cindy</a></li>
+        <li>
+            <button class="collapsible">abigal</button>
+            <div class="content">
+                <p>abigal is retarted</p>
+            </div>
+        </li>
+        <li>
+            <button class="collapsible">john</button>
+            <div class="content">
+                <p>john is retarted</p>
+            </div>
+        </li>
+        <li>
+            <button class="collapsible">billy</button>
+            <div class="content">
+                <p>billy is retarted</p>
+            </div>
+        </li>
+        <li>
+            <button class="collapsible">bob</button>
+            <div class="content">
+                <p>bob is retarted</p>
+            </div>
+        </li>
+        <li>
+            <button class="collapsible">steven</button>
+            <div class="content">
+                <p>steven is retarted</p>
+            </div>
+        </li>
     </ul> 
     </div>
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+    </script>
 
     </center>
 
